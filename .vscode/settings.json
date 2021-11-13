@@ -1,0 +1,94 @@
+{
+  /* Editor */
+
+  // bracket
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs"            : "active",
+  "editor.guides.bracketPairsHorizontal"  : false,
+  "editor.matchBrackets"                  : "always", 
+
+  // font
+  "editor.fontFamily": "PlemolJP35, 'Fira Code iScript', 'Source Han Code JP'",
+  "editor.tokenColorCustomizations": {
+    "functions": { "fontStyle": "italic bold" },
+    "keywords" : { "fontStyle": "italic" },
+    "numbers"  : { "fontStyle": "bold" },
+    "types"    : { "fontStyle": "italic" },
+    "variables": { "fontStyle": "bold" },
+  },
+  "editor.renderControlCharacters": true,
+
+
+  /* Format & Lint */
+
+  // files
+  "files.encoding": "utf8",
+  "files.eol"     : "\n",
+  "files.insertFinalNewline": false,
+  "files.trimFinalNewlines" : true,
+
+  // editor.format
+  "editor.codeActionsOnSave" : { "source.fixAll": true },
+  "editor.defaultFormatter"  : "dbaeumer.vscode-eslint",
+  "editor.formatOnPaste"     : true,
+  "editor.formatOnSave"      : true,
+  "editor.formatOnType"      : false,
+  "editor.tabSize"           : 2,
+
+  // editor.formatSupport
+  "editor.detectIndentation" : true,
+  "editor.renderFinalNewline": true,
+  "editor.rulers"            : [80, 100],
+  "editor.stickyTabStops"    : false,
+
+  // eslint
+  "eslint.enable"         : true,
+  "eslint.format.enable"  : true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager" : "npm",
+  "eslint.probe": [
+    "html",
+    "javascript",
+    "json",
+    "jsonc",
+    "markdown",
+    "svelte",
+    "typescript",
+  ],
+  "eslint.trace.server": "messages",
+
+  // errorLens
+  "errorLens.enabled"        : true,
+  "errorLens.excludePatterns": ["**/*.test.ts"],
+
+
+  /* Git */
+  "git.allowNoVerifyCommit": false,
+  "git.confirmEmptyCommits": true,
+  "git.confirmForcePush"   : true,
+  "git.enableCommitSigning": true,
+
+  // gitmoji
+  "gitmoji.outputType": "code",
+
+
+  /* Terminal */
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.fontFamily": "'PlemolJP35 Console', 'PlemolJP35Nerd Console'",
+
+
+  /* Languages */
+
+  // js/ts
+  "js/ts.implicitProjectConfig.checkJs": true,
+  
+  "[jsonc]": {
+    "editor.formatOnSave"     : false,
+    "editor.codeActionsOnSave": { "source.fixAll": false }
+  },
+  
+  // svelte
+  "svelte.enable-ts-plugin"           : true,
+  "svelte.plugin.svelte.format.enable": false,
+  "svelte.trace.server"               : "messages",
+}

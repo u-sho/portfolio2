@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eg2.vscode-npm-script",
+    "qzsg.kitty-time",
+    "snyk-security.vscode-vuln-cost",
+    "streetsidesoftware.code-spell-checker",
+    "svelte.svelte-vscode",
+    "usernamehw.errorlens",
+    "vtrois.gitmoji-vscode",
+  ],
+  "unwantedRecommendations": [
+    "2gua.rainbow-brackets",
+    "coenraads.bracket-pair-colorizer",
+    "coenraads.bracket-pair-colorizer-2",
+  ]
+}
