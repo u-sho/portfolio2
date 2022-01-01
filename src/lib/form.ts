@@ -32,6 +32,7 @@ export function enhance(
 				body
 			});
 
+			// deepcode ignore UncomaparableValues: checking the same object or else
 			if (token !== current_token) return;
 
 			if (res.ok) {
@@ -41,19 +42,21 @@ export function enhance(
 			} else {
 				console.error(await res.text());
 			}
-		} catch (e) {
+		} catch (e: unknown) {
 			if (error) {
-				error(null, e, form);
+				error(null, e as Error, form);
 			} else {
 				throw e;
 			}
 		}
 	}
 
+	// eslint-disable-next-line @typescript-eslint/no-misused-promises
 	form.addEventListener('submit', handle_submit);
 
 	return {
 		destroy() {
+			// eslint-disable-next-line @typescript-eslint/no-misused-promises
 			form.removeEventListener('submit', handle_submit);
 		}
 	};

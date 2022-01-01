@@ -17,9 +17,7 @@ module.exports = {
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2020,
-		tsconfigRootDir: __dirname,
-		project: ['./tsconfig.eslint.json'],
-		extraFileExtensions: ['.svelte', '.cjs']
+		project: ['./tsconfig.eslint.json']
 	},
 	env: {
 		browser: true,
