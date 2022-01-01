@@ -28,7 +28,7 @@
 
 	// editor.format
 	"editor.codeActionsOnSave": { "source.fixAll": true },
-	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
 	"editor.formatOnType": false,
@@ -47,6 +47,7 @@
 	"eslint.lintTask.enable": true,
 	"eslint.packageManager": "npm",
 	"eslint.probe": ["html", "javascript", "markdown", "svelte", "typescript"],
+	"eslint.run": "onSave",
 	"eslint.trace.server": "messages",
 
 	// errorLens
