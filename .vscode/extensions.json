@@ -3,11 +3,11 @@
     "dbaeumer.vscode-eslint",
     "eg2.vscode-npm-script",
     "qzsg.kitty-time",
-    "snyk-security.vscode-vuln-cost",
+    "snyk-security.snyk-vulnerability-scanner",
     "streetsidesoftware.code-spell-checker",
     "svelte.svelte-vscode",
     "usernamehw.errorlens",
-    "vtrois.gitmoji-vscode",
+    "seatonjiang.gitmoji-vscode"
   ],
   "unwantedRecommendations": [
     "2gua.rainbow-brackets",

@@ -61,6 +61,11 @@
   "errorLens.enabled"        : true,
   "errorLens.excludePatterns": ["**/*.test.ts"],
 
+  // snyk
+  "snyk.features.codeQuality": true,
+  "snyk.features.codeSecurity": true,
+  "snyk.features.openSourceSecurity": true,
+
 
   /* Git */
   "git.allowNoVerifyCommit": false,
@@ -69,7 +74,7 @@
   "git.enableCommitSigning": true,
 
   // gitmoji
-  "gitmoji.outputType": "code",
+  "gitmoji.outputType": "emoji",
 
 
   /* Terminal */
