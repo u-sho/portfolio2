@@ -1,5 +1,6 @@
 import type { Request } from '@sveltejs/kit';
 import type { Locals } from '$lib/types';
+import type { JSONString } from '@sveltejs/kit/types/helper';
 
 /*
 	This module is used by the /todos.json and /todos/[uid].json
@@ -14,7 +15,11 @@ import type { Locals } from '$lib/types';
 
 const base = 'https://api.svelte.dev';
 
-export async function api(request: Request<Locals>, resource: string, data?: Record<string, unknown>) {
+export async function api(
+	request: Request<Locals>,
+	resource: string,
+	data?: Record<string, unknown>
+) {
 	// user must have a cookie set
 	if (!request.locals.userid) {
 		return { status: 401 };
@@ -29,7 +34,7 @@ export async function api(request: Request<Locals>, resource: string, data?: Rec
 	});
 
 	// if the request came from a <form> submission, the browser's default
-	// behaviour is to show the URL corresponding to the form's "action"
+	// behavior is to show the URL corresponding to the form's "action"
 	// attribute. in those cases, we want to redirect them back to the
 	// /todos page, rather than showing the response
 	if (res.ok && request.method !== 'GET' && request.headers.accept !== 'application/json') {
@@ -43,6 +48,6 @@ export async function api(request: Request<Locals>, resource: string, data?: Rec
 
 	return {
 		status: res.status,
-		body: await res.json()
+		body: await (res.json() as Promise<JSONString>)
 	};
 }
