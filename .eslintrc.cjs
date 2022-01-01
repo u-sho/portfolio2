@@ -1,10 +1,12 @@
+/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
 module.exports = {
 	root: true,
 	parser: '@typescript-eslint/parser',
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:@typescript-eslint/recommended-requiring-type-checking'
+		'plugin:@typescript-eslint/recommended-requiring-type-checking',
+		'prettier'
 	],
 	plugins: ['svelte3', '@typescript-eslint'],
 	ignorePatterns: ['node_modules/', '.svelte-kit/', 'build/', 'package/'],
