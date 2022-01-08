@@ -1,6 +1,5 @@
-import type { Request } from '@sveltejs/kit';
+import type { Request, EndpointOutput } from '@sveltejs/kit';
 import type { Locals } from '$lib/types';
-import type { JSONString } from '@sveltejs/kit/types/helper';
 
 /*
 	This module is used by the /todos.json and /todos/[uid].json
@@ -19,7 +18,7 @@ export async function api(
 	request: Request<Locals>,
 	resource: string,
 	data?: Record<string, unknown>
-) {
+): Promise<EndpointOutput> {
 	// user must have a cookie set
 	if (!request.locals.userid) {
 		return { status: 401 };
@@ -48,6 +47,6 @@ export async function api(
 
 	return {
 		status: res.status,
-		body: await (res.json() as Promise<JSONString>)
+		body: await (res.json() as Promise<Uint8Array>)
 	};
 }
