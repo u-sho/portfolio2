@@ -12,6 +12,7 @@
 		"lint:fix": "eslint --fix . && prettier --write ."
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-auto": "^1.0.0-next.7",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.1",
 		"@typescript-eslint/eslint-plugin": "^5.8.1",
