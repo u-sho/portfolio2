@@ -13,8 +13,8 @@
 		"functions": { "fontStyle": "italic bold" },
 		"keywords": { "fontStyle": "italic" },
 		"numbers": { "fontStyle": "bold" },
-		"types": { "fontStyle": "italic" },
-		"variables": { "fontStyle": "bold" }
+		"types": { "fontStyle": "regular" },
+		"variables": { "fontStyle": "italic" }
 	},
 	"editor.renderControlCharacters": true,
 
@@ -58,6 +58,9 @@
 	"snyk.features.codeQuality": true,
 	"snyk.features.codeSecurity": true,
 	"snyk.features.openSourceSecurity": true,
+
+	// code spell checker
+	"cSpell.words": ["userid"],
 
 	/* Git */
 	"git.allowNoVerifyCommit": false,

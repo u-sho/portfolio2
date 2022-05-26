@@ -1,4 +1,4 @@
-/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
+/** @type {import('@typescript-eslint/utils').TSESLint.Linter.Config} */
 module.exports = {
 	root: true,
 	parser: '@typescript-eslint/parser',
@@ -16,12 +16,11 @@ module.exports = {
 	},
 	parserOptions: {
 		sourceType: 'module',
-		ecmaVersion: 2020,
+		ecmaVersion: 'latest',
 		project: ['./tsconfig.eslint.json']
 	},
 	env: {
 		browser: true,
-		es2020: true,
-		node: true
+		es2022: true
 	}
 };
