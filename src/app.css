@@ -26,6 +26,8 @@ body {
 		var(--secondary-color) 10.45%,
 		var(--tertiary-color) 41.35%
 	);
+	border-right: min(1vw, 6px) solid var(--accent-color);
+	border-left: min(1vw, 6px) solid var(--accent-color);
 }
 
 body::before {
