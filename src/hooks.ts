@@ -1,25 +1,22 @@
 import cookie from 'cookie';
-import { v4 as uuid } from '@lukeed/uuid';
 import type { Handle } from '@sveltejs/kit';
 
-export const handle: Handle = async ({ request, resolve }) => {
-	const cookies = cookie.parse(request.headers.cookie || '');
-	request.locals.userId = cookies.userId || uuid();
+export const handle: Handle = async ({ event, resolve }) => {
+	const cookies = cookie.parse(event.request.headers.get('cookie') || '');
+	event.locals.userId = cookies.userId || crypto.randomUUID();
 
-	// TODO https://github.com/sveltejs/kit/issues/1046
-	if (request.url.searchParams.has('_method')) {
-		request.method = request.url.searchParams.get('_method').toUpperCase();
-	}
-
-	const response = await resolve(request);
+	const response = await resolve(event);
 
 	if (!cookies.userId) {
 		// if this is the first time the user has visited this app,
 		// set a cookie so that we recognise them when they return
-		response.headers['set-cookie'] = cookie.serialize('userId', request.locals.userId as string, {
-			path: '/',
-			httpOnly: true
-		});
+		response.headers.set(
+			'set-cookie',
+			cookie.serialize('userId', event.locals.userId, {
+				path: '/',
+				httpOnly: true
+			})
+		);
 	}
 
 	return response;

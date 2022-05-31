@@ -9,7 +9,7 @@
 
 	// editor.format
 	"editor.codeActionsOnSave": { "source.fixAll": true },
-	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 
 	// editor.formatSupport
@@ -21,7 +21,6 @@
 
 	// eslint
 	"eslint.enable": true,
-	"eslint.format.enable": true,
 	"eslint.lintTask.enable": true,
 	"eslint.packageManager": "npm",
 	"eslint.probe": ["html", "javascript", "markdown", "svelte", "typescript"],
@@ -50,7 +49,7 @@
 	// js/ts
 	"js/ts.implicitProjectConfig.checkJs": true,
 
-	"[jsonc][yaml]": {
+	"[json][jsonc][yaml]": {
 		"editor.codeActionsOnSave": { "source.fixAll": true },
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true

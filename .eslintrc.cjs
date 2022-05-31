@@ -1,4 +1,4 @@
-/** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
 	root: true,
 	parser: '@typescript-eslint/parser',
@@ -9,19 +9,19 @@ module.exports = {
 		'prettier'
 	],
 	plugins: ['svelte3', '@typescript-eslint'],
-	ignorePatterns: ['node_modules/', '.svelte-kit/', 'build/', 'package/'],
+	ignorePatterns: ['node_modules/', '.svelte-kit/', '/build', '/package'],
 	overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
 	settings: {
 		'svelte3/typescript': () => require('typescript')
 	},
 	parserOptions: {
 		sourceType: 'module',
-		ecmaVersion: 2020,
+		ecmaVersion: 2022,
 		project: ['./tsconfig.eslint.json']
 	},
 	env: {
 		browser: true,
-		es2020: true,
+		es2022: true,
 		node: true
 	}
 };
