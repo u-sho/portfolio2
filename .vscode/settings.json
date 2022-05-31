@@ -1,23 +1,4 @@
 {
-	/* Editor */
-
-	// bracket
-	"editor.bracketPairColorization.enabled": true,
-	"editor.guides.bracketPairs": "active",
-	"editor.guides.bracketPairsHorizontal": false,
-	"editor.matchBrackets": "always",
-
-	// font
-	"editor.fontFamily": "PlemolJP35, 'Fira Code iScript', 'Source Han Code JP'",
-	"editor.tokenColorCustomizations": {
-		"functions": { "fontStyle": "italic bold" },
-		"keywords": { "fontStyle": "italic" },
-		"numbers": { "fontStyle": "bold" },
-		"types": { "fontStyle": "italic" },
-		"variables": { "fontStyle": "bold" }
-	},
-	"editor.renderControlCharacters": true,
-
 	/* Format & Lint */
 
 	// files
@@ -29,10 +10,7 @@
 	// editor.format
 	"editor.codeActionsOnSave": { "source.fixAll": true },
 	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
-	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
-	"editor.formatOnType": false,
-	"editor.tabSize": 2,
 
 	// editor.formatSupport
 	"editor.detectIndentation": true,
@@ -66,10 +44,6 @@
 
 	// gitmoji
 	"gitmoji.outputType": "emoji",
-
-	/* Terminal */
-	"terminal.integrated.enableBell": true,
-	"terminal.integrated.fontFamily": "'PlemolJP35 Console', 'PlemolJP35Nerd Console'",
 
 	/* Languages */
 
