@@ -85,5 +85,20 @@
 	// svelte
 	"svelte.enable-ts-plugin": true,
 	"svelte.plugin.svelte.format.enable": false,
-	"svelte.trace.server": "messages"
+	"svelte.trace.server": "messages",
+
+	// spell
+	"cSpell.enabled": true,
+	"cSpell.words": ["organise", "prerender", "recognise", "Uncomaparable"],
+	"cSpell.ignoreWords": [
+		"deepcode",
+		"fira",
+		"fontsource",
+		"lukeed",
+		"rgba",
+		"srcset",
+		"typeof",
+		"TSESLint",
+		"webp"
+	]
 }

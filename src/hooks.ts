@@ -4,7 +4,7 @@ import type { Handle } from '@sveltejs/kit';
 
 export const handle: Handle = async ({ request, resolve }) => {
 	const cookies = cookie.parse(request.headers.cookie || '');
-	request.locals.userid = cookies.userid || uuid();
+	request.locals.userId = cookies.userId || uuid();
 
 	// TODO https://github.com/sveltejs/kit/issues/1046
 	if (request.url.searchParams.has('_method')) {
@@ -13,10 +13,10 @@ export const handle: Handle = async ({ request, resolve }) => {
 
 	const response = await resolve(request);
 
-	if (!cookies.userid) {
+	if (!cookies.userId) {
 		// if this is the first time the user has visited this app,
 		// set a cookie so that we recognise them when they return
-		response.headers['set-cookie'] = cookie.serialize('userid', request.locals.userid as string, {
+		response.headers['set-cookie'] = cookie.serialize('userId', request.locals.userId as string, {
 			path: '/',
 			httpOnly: true
 		});
