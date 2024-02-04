@@ -8,13 +8,13 @@
 	"files.trimFinalNewlines": true,
 
 	// editor.format
-	"editor.codeActionsOnSave": { "source.fixAll": true },
+	"editor.codeActionsOnSave": { "source.fixAll": "explicit" },
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 
 	// editor.formatSupport
 	"editor.detectIndentation": true,
-	"editor.renderFinalNewline": true,
+	"editor.renderFinalNewline": "on",
 	"editor.rulers": [80, 100],
 	"editor.stickyTabStops": false,
 	"editor.wordWrapColumn": 100,
@@ -22,7 +22,6 @@
 	// eslint
 	"eslint.enable": true,
 	"eslint.lintTask.enable": true,
-	"eslint.packageManager": "npm",
 	"eslint.probe": ["html", "javascript", "markdown", "svelte", "typescript"],
 	"eslint.trace.server": "messages",
 
@@ -50,7 +49,7 @@
 	"js/ts.implicitProjectConfig.checkJs": true,
 
 	"[json][jsonc][yaml]": {
-		"editor.codeActionsOnSave": { "source.fixAll": true },
+		"editor.codeActionsOnSave": { "source.fixAll": "explicit" },
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true
 	},
