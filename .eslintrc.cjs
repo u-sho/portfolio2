@@ -6,22 +6,26 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
+		'plugin:svelte/recommended',
 		'prettier'
 	],
-	plugins: ['svelte3', '@typescript-eslint'],
+	plugins: ['@typescript-eslint'],
 	ignorePatterns: ['node_modules/', '.svelte-kit/', '/build', '/package'],
-	overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
-	settings: {
-		'svelte3/typescript': () => require('typescript')
-	},
+	overrides: [{
+		files: ['*.svelte'],
+		parser: 'svelte-eslint-parser',
+		parserOptions: {
+			parser: '@typescript-eslint/parser'
+		}
+	}],
 	parserOptions: {
 		sourceType: 'module',
-		ecmaVersion: 2022,
-		project: ['./tsconfig.eslint.json']
+		ecmaVersion: 2024,
+		extraFileExtensions: ['.svelte']
 	},
 	env: {
 		browser: true,
-		es2022: true,
+		es2024: true,
 		node: true
 	}
 };
