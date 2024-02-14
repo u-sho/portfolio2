@@ -11,13 +11,15 @@ module.exports = {
 	],
 	plugins: ['@typescript-eslint'],
 	ignorePatterns: ['node_modules/', '.svelte-kit/', '/build', '/package'],
-	overrides: [{
-		files: ['*.svelte'],
-		parser: 'svelte-eslint-parser',
-		parserOptions: {
-			parser: '@typescript-eslint/parser'
+	overrides: [
+		{
+			files: ['*.svelte'],
+			parser: 'svelte-eslint-parser',
+			parserOptions: {
+				parser: '@typescript-eslint/parser'
+			}
 		}
-	}],
+	],
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2024,
