@@ -6,6 +6,7 @@
 		"src/**/*.ts",
 		"src/**/*.svelte",
 		".eslintrc.cjs",
-		"svelte.config.js"
+		"svelte.config.js",
+		"vite.config.ts"
 	]
 }
