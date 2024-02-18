@@ -201,6 +201,11 @@
 			object-fit: cover;
 			border-radius: 50%;
 			width: 200px;
+			transition: transform 1s ease;
+
+			&:hover {
+				transform: rotateY(180deg);
+			}
 		}
 
 		& h1 {
