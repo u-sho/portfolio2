@@ -80,35 +80,84 @@
 		<h3>Novel</h3>
 		<h4>Author</h4>
 		<ul>
-			<li>ダレン・シャン</li>
-			<li>上橋菜穂子</li>
-			<li>あさのあつこ</li>
-			<li>クリフ・マクニッシュ</li>
-			<li>西尾維新</li>
-			<li>有川浩</li>
-			<li>住野よる</li>
-			<li>エミリー・ロッダ</li>
+			<li>
+				ダレン・シャン (Darren Shan)（<a href="https://www.shogakukan.co.jp/author/4149?sort=old"
+					>小学館著者ページ</a
+				>，<a href="https://darrenshan.com/">公式サイト</a>）
+			</li>
+			<li>上橋菜穂子（<a href="https://uehashi.com/">公式サイト</a>）</li>
+			<li>
+				あさのあつこ（<a href="https://ja.wikipedia.org/wiki/あさのあつこ#著作リスト"
+					>Wikipedia著作リスト</a
+				>）
+			</li>
+			<li>
+				クリフ・マクニッシュ (Cliff McNish)（<a
+					href="https://ja.wikipedia.org/wiki/クリフ・マクニッシュ#著作リスト"
+					>Wikipedia著作リスト</a
+				>，<a href="https://www.cliffmcnish.com/">公式サイト</a>）
+			</li>
+			<li>
+				西尾維新 (NISIOISIN)（<a
+					href="https://bookclub.kodansha.co.jp/search?_ft=author&_sw=西尾維新">講談社書籍検索</a
+				>）
+			</li>
+			<li>
+				有川ひろ（有川浩）（<a href="https://honto.jp/netstore/search/au_1001827346.html"
+					>honto書籍一覧</a
+				>）
+			</li>
+			<li>
+				住野よる（<a href="https://www.shinchosha.co.jp/writer/5798/">新潮社著者プロフィール</a>）
+			</li>
+			<li>
+				エミリー・ロッダ (Emily Rodda)（<a
+					href="https://ja.wikipedia.org/wiki/エミリー・ロッダ#著作リスト">Wikipedia著作リスト</a
+				>，<a href="http://www.emilyrodda.com/">公式サイト</a>）
+			</li>
 		</ul>
 		<h4>Translator</h4>
 		<ul>
-			<li>金原瑞人</li>
+			<li>金原瑞人 (Mizuhito Kanehara)（<a href="https://kanehara.jp">公式サイト</a>）</li>
 		</ul>
 		<h4>Title</h4>
 		<ul>
-			<li>『ネシャン・サーガ』ラルフ・イーザウ（酒寄進一 訳）</li>
-			<li>『バーティミアス』ジョナサン・ストラウド（金原瑞人，松山美保 共訳）</li>
+			<li>
+				『ネシャン・サーガ』ラルフ・イーザウ 作，酒寄進一 訳，佐竹美保 イラスト，<a
+					href="http://www.asunaroshobo.co.jp/home/series/neschan/">あすなろ書房</a
+				>
+			</li>
+			<li>
+				『バーティミアス』ジョナサン・ストラウド 著，金原瑞人，松山美保 共訳，理論社（<a
+					href="https://www.sayzansha.com/search/g13184.html">静山社（文庫版）</a
+				>，<a href="http://www.bartimaeusbooks.com/">BARTIMAEUS公式サイト</a>）
+			</li>
 			<li>『星の王子さま』サン＝テグジュペリ（河野万里子 訳）</li>
-			<li>『とある飛空士への』犬村小六</li>
-			<li>『しにがみのバラッド。』ハセガワケイスケ</li>
+			<li>『とある飛空士』犬村小六，小学館ガガガ文庫</li>
+			<li>『しにがみのバラッド。』ハセガワケイスケ，電撃文庫</li>
 			<li>『ハリー・ポッター』J.K.ローリング，静山社</li>
 		</ul>
 		<h4>Web</h4>
 		<ul>
-			<li>『ハリー・ポッターと合理主義の方法』E S Yudkowsky（ポット＠翻訳）</li>
-			<li>『本好きの下剋上　～司書になるためには手段を選んでいられません～』香月 美夜</li>
-			<li>『無職転生　- 異世界行ったら本気だす -』理不尽な孫の手</li>
-			<li>『Ｄジェネシス　ダンジョンができて３年（web版）』之 貫紀</li>
-			<li>『最強人種』子猫だよ・ω・</li>
+			<li>
+				『<a href="https://syosetu.org/novel/160391/">ハリー・ポッターと合理主義の方法</a>』E S
+				Yudkowsky（ポット＠翻訳）
+			</li>
+			<li>
+				<!-- eslint-disable no-irregular-whitespace -->
+				『<a href="https://ncode.syosetu.com/n4830bu/"
+					>本好きの下剋上　～司書になるためには手段を選んでいられません～</a
+				>』<a href="https://mypage.syosetu.com/372556/">香月 美夜</a>
+			</li>
+			<li>
+				『<a href="https://ncode.syosetu.com/n9669bk/">無職転生　- 異世界行ったら本気だす -</a
+				>』理不尽な孫の手
+				<!-- eslint-enable no-irregular-whitespace -->
+			</li>
+			<li>
+				『<a href="https://ncode.syosetu.com/n7945fn/">ダンジョンができて３年（web版）</a>』之 貫紀
+			</li>
+			<li>『<a href="https://estar.jp/series/6513294">最強人種</a>』子猫だよ・ω・</li>
 		</ul>
 		<h3>Manga</h3>
 		<ul>
@@ -122,14 +171,36 @@
 		</ul>
 		<h3>Film</h3>
 		<ul>
-			<li>『レ・ミゼラブル』2019年</li>
-			<li>『おんなのこきらい』2015年</li>
+			<li>
+				『レ・ミゼラブル』2012年（<a href="https://www.youtube.com/watch?v=VoCGLi82O7I">予告編</a>）
+			</li>
+			<li>
+				『おんなのこきらい』2015年（<a href="https://twitter.com/onnanoko_kirai"
+					>Twitterアカウント</a
+				>）
+			</li>
 		</ul>
 		<h3>Song</h3>
 		<h4>Group</h4>
 		<ul>
-			<li>ふぇのたす</li>
-			<li>SHE IS SUMMER</li>
+			<li>
+				ふぇのたす（<a href="https://www.youtube.com/@phenotastube">YouTubeチャンネル</a>，<a
+					href="https://twitter.com/phenotas">Twitterアカウント</a
+				>）
+			</li>
+			<li>
+				SHE IS SUMMER（<a href="https://www.youtube.com/channel/UC9_JZbqYadsNWEiHFBJ1MiQ"
+					>YouTubeチャンネル</a
+				>，<a href="https://she-is-summer.com/">公式サイト</a>）
+			</li>
+			<li>
+				<ruby
+					>杏<rp>(</rp><rt>アン</rt><rp>)</rp>窪<rp>(</rp><rt>ア</rt><rp>)</rp>彌<rp>(</rp><rt
+						>ミン</rt
+					><rp>)</rp></ruby
+				>
+				(un amin)（<a href="http://www.un-amin.com/">公式サイト</a>）
+			</li>
 			<li>ずっと真夜中でいいのに</li>
 			<li>back number</li>
 			<li>Hump back</li>
@@ -167,7 +238,6 @@
 			<li>ESLint</li>
 			<li>TypeScript</li>
 			<li>jQuery</li>
-			<li>Vite</li>
 		</ul>
 		<h4>Editor</h4>
 		<ul>
@@ -175,9 +245,9 @@
 		</ul>
 		<h4>Language</h4>
 		<ul>
+			<li>C</li>
 			<li>Rust</li>
-			<li>HTML</li>
-			<li>XML</li>
+			<li>HTML/XML/SVG/CSS</li>
 			<li>(La)TeX</li>
 			<li>Markdown</li>
 		</ul>
@@ -185,6 +255,7 @@
 		<ul>
 			<li><a href="https://twitter.com/u_sho_engineer">𝕏/Twitter</a></li>
 			<li><a href="https://github.com/u-sho">GitHub</a></li>
+			<li><a href="https://qiita.com/u-sho">Qiita</a></li>
 		</ul>
 	</article>
 </div>
